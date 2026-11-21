@@ -1,157 +1,157 @@
 # Privacy Policy for PlateVitals
 
-**Last updated:** November 21, 2026  
+**Last updated:** November 21, 2026 (app version 1.0.33)  
 **Developer:** Vernon Bearss (doing business as PlateVitals)  
 **Contact:** csavern@gmail.com  
-**App:** PlateVitals (Android package `com.vern.diettracker`)
+**App:** PlateVitals (Android package `com.vern.diettracker`)  
+**Consumer Health Data Privacy Policy (Washington, Nevada, Connecticut):** https://txvern.github.io/platevitals-legal/consumer-health-data.html  
+**Delete your account:** see [How to delete your account and data](#delete-account)
 
-This Privacy Policy describes how PlateVitals (“we,” “us,” or “the App”) collects, uses, stores, and shares information when you use the PlateVitals Android application. By using the App, you agree to this policy.
+This Privacy Policy explains what PlateVitals (“we,” “us,” or “the App”) collects, why, where it is stored, who it is shared with, and how you can delete it.
 
-**PlateVitals is a wellness and fitness tracking tool. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease. Always consult a qualified healthcare professional for medical advice. Continuous glucose monitor (CGM) readings shown in the App (including data originating from devices such as Abbott Lingo) may be delayed and are for personal wellness awareness only.**
-
----
-
-## 1. Information We Collect
-
-### 1.1 Account and identity
-When you sign in (Google Sign-In and/or email account options offered in the App), we may collect:
-
-- Name and email address associated with your account  
-- Google account identifiers and profile photo URL (if provided by Google Sign-In)  
-- Authentication tokens needed to keep you signed in and to sync your data  
-
-### 1.2 Profile and food / wellness logs (you provide)
-Depending on how you use the App, this may include:
-
-- Profile details you enter (for example goals, diet style such as Keto / Diabetic / Heart-Health preferences, water and macro targets)  
-- Meal and food logs, barcodes scanned, water intake, habits, and related notes  
-- Photos or images you choose to capture or select from your photo album for food logging  
-- Local preferences and onboarding choices  
-
-### 1.3 Health and fitness data (Health Connect — only with your permission)
-If you connect Android Health Connect and grant permissions, the App may **read** (it does not write back to Health Connect in the current product) data such as:
-
-- Blood glucose (for example readings shared into Health Connect by Abbott Lingo or other CGM apps; readings may lag by roughly three hours or more depending on the source app)  
-- Steps  
-- Heart rate  
-- Weight  
-- Active calories burned  
-- Oxygen saturation  
-
-Samsung Health (and similar apps) are used **only** when they share data into Health Connect and you grant PlateVitals the corresponding Health Connect permissions. We do not access Samsung Health through a separate proprietary API in the current App.
-
-You can revoke Health Connect permissions at any time in Android / Health Connect settings or by disconnecting in the App.
-
-### 1.4 Device and technical data
-The App may process limited technical information needed to operate, such as:
-
-- Device identifiers used by Google / Firebase for authentication and crash-free operation  
-- App version, platform (Android), and similar diagnostics you see in Settings  
-- Notification permission status (local reminders; not used for advertising)  
-
-### 1.5 AI food estimates from photos or text
-If you use camera / album food logging or AI meal analysis, meal photos and/or meal descriptions you submit are sent to **Google Gemini** (Google Generative Language API) to estimate food identity and nutrition. Those images and prompts are processed by Google under Google’s terms and privacy practices for that API. Do not upload photos you do not want processed for that purpose.
+**PlateVitals is a wellness and fitness tracking tool for adults 18 and older. It is not a medical device and does not diagnose, treat, cure, or prevent any disease or medical condition. Always ask a qualified healthcare professional for medical advice. Glucose readings shown in the App (for example from an Abbott Lingo sensor through Health Connect) may be delayed and are for personal wellness awareness only.**
 
 ---
 
-## 2. How We Use Information
+## 1. Information we collect
 
-We use the information above to:
+### 1.1 Account
+When you sign in with Google (or create an email account in the App) we collect your name, email address, a Google / Firebase account ID and, if Google provides it, your profile photo address. These are used to sign you in and to back up your data to your account.
 
-- Provide account sign-in, cloud backup/restore, and multi-device sync when Firebase is configured  
-- Display food logs, macros, water, habits, goals, and Health Connect vitals in the App  
-- Improve food estimates via AI vision when you request them  
-- Send **local** reminders you enable (meal, water, or similar notifications on your device)  
-- Maintain security, prevent abuse, and support the App  
+### 1.2 Profile, wellness goals and logs (you enter them)
+- Profile details: age, sex, height, weight, waist, activity level, calorie / Protein / Carbohydrate / Fat / water / step goals and diet style (for example Keto, Low Glycemic / Low Carb, Low Sodium / DASH-Style).
+- **Wellness goals you choose** (optional): Blood Sugar Awareness / Low Carb, Low Sodium, Heart-Healthy Eating, Weight Loss & Portion Control. These only change your suggested nutrition targets. Because they can reveal something about your health, we treat them as consumer health data.
+- Meal and food logs, water, glucose readings you type in, weight and waist entries, habit check-offs and reminder times.
+- Your one-time consent to health data use and your 18-or-older confirmation (with the date and time).
 
-We do **not** sell your personal information.  
-We do **not** currently show third-party ads in the App.
+### 1.3 Health Connect (only with your permission)
+If you connect Android Health Connect and grant permission, PlateVitals **reads** (it never writes) these six data types, and only to show them in the App:
 
----
+| Health Connect data | Where you see it in the App |
+|---|---|
+| Steps | Daily Step Counter |
+| Active calories burned | Calorie Summary Ring (calories left today) |
+| Heart rate | Heart Rate card |
+| Weight | Weight card and your calorie targets |
+| Blood glucose | Glucose card, Glucose detail screen and Trends |
+| Oxygen saturation (blood oxygen) | Blood Oxygen card |
 
-## 3. Where Data Is Stored
+Reads cover today (glucose: the last 48 hours). PlateVitals does not read Health Connect in the background and does not read blood pressure, sleep or resting heart rate. You can turn permissions off at any time in Health Connect or Android settings, or with Disconnect in the App.
 
-- **On your device:** Day logs, preferences, and related state are stored locally (including browser-style local storage in the app WebView and Capacitor Preferences).  
-- **In the cloud (when you are signed in and Firebase is enabled):** Profile and health/food state used for sync may be stored in **Google Firebase Authentication** and **Cloud Firestore** under your user account (Firebase project associated with PlateVitals).  
-- **Health Connect:** Source health records remain under Android Health Connect / the originating apps (for example Lingo). PlateVitals reads copies you authorize for display and local/cloud sync of the App’s own state.  
-- **AI analysis:** Photos/text you submit for food analysis are transmitted to Google’s Gemini API for processing as described above.
+**Health Connect Limited Use.** PlateVitals' use of information received from Health Connect follows the Health Connect Permissions policy, including its Limited Use requirements. Health Connect data is used only to provide the dashboard features you see; it is never used for advertising, never sold, never used to train AI models, never sent to Google Gemini, and is not read by people except with your permission, for security, or when the law requires it.
 
----
+### 1.4 Phone step sensor
+If Health Connect steps are not available, PlateVitals can count steps with your phone's built-in step sensor. Android asks for the **Physical activity** permission first. The step count stays in the App like other step data (see section 3).
 
-## 4. Sharing of Information
+### 1.5 Meal photos and food text (AI estimates)
+When you use AI plate photo scan or typed AI food search, the photo (resized on your phone) or the text you typed is sent to **Google Gemini** (Google's Generative Language API) to estimate the food and its nutrition. No health readings, name, email or account ID are sent with it. PlateVitals does not keep a copy of the photo after the estimate.  
+PlateVitals currently uses Gemini's **free (unpaid) service**. Under Google's terms for that service, **Google may use the photos and text sent to it to improve Google products, and Google staff may review them**. Please do not scan photos that show people, documents or other personal details. If this changes (for example to Google's paid service, where submissions are not used to improve Google products), we will update this policy.
 
-We share data only as needed to operate the App:
+### 1.6 Barcodes
+When you scan a barcode, only the barcode number is sent to **Open Food Facts** (a free public food database) to look up the product's nutrition label. Nothing else about you is sent.
 
-| Recipient | Purpose |
-|-----------|---------|
-| **Google (Sign-In / Firebase Auth / Firestore)** | Authentication and optional cloud sync of your app state |
-| **Google (Gemini API)** | Food photo / description analysis when you use that feature |
-| **Android Health Connect** | Permission-gated reading of health data you approve (no sale of that data) |
-| **Service providers** | Only as embedded in the Google/Firebase/Android stack required to run the App |
+### 1.7 Membership purchases (Google Play Billing)
+The membership ($4.99 a month in the United States) is sold and billed only by **Google Play**. We never see your card or bank details. Google Play tells the App whether your subscription is active and gives it a purchase token and order ID, which we store with your account so your membership works after a reinstall or on a new phone.
 
-We do not share your health or food data with advertisers. We may disclose information if required by law or to protect rights, safety, or the integrity of the service.
-
----
-
-## 5. Retention
-
-- Local data remains on your device until you clear app data, uninstall, or delete content in the App.  
-- Cloud (Firestore / Auth) data is retained while your account exists and cloud sync is used, or until you request deletion.  
-- AI requests are processed to return an estimate; we do not operate a separate long-term photo archive outside the providers above. Avoid uploading sensitive images you do not need analyzed.  
-
-Exact retention for Google/Firebase services is also governed by Google’s applicable terms and retention controls.
+### 1.8 Device and technical data
+The App uses the app version and Android version shown in Settings, Firebase sign-in tokens, and your notification permission status. Reminders are **local notifications** created on your phone; we do not run push-notification or advertising services. The App has no ad, analytics or crash-reporting SDKs.
 
 ---
 
-## 6. Security
+## 2. How we use information
+- Sign you in, back up your data and restore it on reinstall or a new phone.
+- Show your dashboard, goals, history, Trends and Health Connect readings.
+- Estimate food nutrition from photos, text or barcodes when you ask.
+- Send the reminders you turn on, at the times you choose.
+- Check and restore your Google Play membership.
+- Keep the App secure and answer your support requests.
 
-We use industry-standard protections available through Android and Google Firebase, including encrypted transit (HTTPS / TLS) for network calls. No method of electronic storage or transmission is 100% secure. Please use a strong Google account password and keep your device updated.
-
----
-
-## 7. Children’s Privacy
-
-PlateVitals is **not directed at children under 13**. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us personal information, contact csavern@gmail.com and we will take reasonable steps to delete it.
-
-Given the health- and CGM-related nature of the App, we recommend use by adults (18+) or under appropriate parental/guardian guidance where allowed by platform rules.
+We do **not** sell personal information, do **not** show ads, and do **not** share health data with advertisers or data brokers.
 
 ---
 
-## 8. Your Rights and Choices
+## 3. Where your data is stored
+- **On your phone:** everything you log, your profile and settings are stored in the App's private storage on your phone.
+- **In your PlateVitals account (only if you sign in):** a copy of your profile, wellness goals, meals, water, reminders and habits, your glucose readings, and the daily steps, active calories burned, weight and heart rate shown on your dashboard (including up to 60 days of daily history) is saved in **Google Firebase** (Firebase Authentication and Cloud Firestore, in the United States). This backup is what brings your data back after a reinstall. Blood oxygen readings are shown but not saved to your account.
+- **Health Connect:** the original records stay in Health Connect and the apps that wrote them (for example Lingo or Samsung Health). PlateVitals keeps only the copies described above.
 
-You may:
-
-- **Sign out** in the App  
-- **Revoke Health Connect permissions** in system / Health Connect settings  
-- **Disable notifications** in Android settings  
-- **Clear local app data** or uninstall the App  
-- **Request account / cloud data deletion** by emailing **csavern@gmail.com** from the address associated with your account (include “PlateVitals data deletion” in the subject). We will take reasonable steps to delete Firebase Auth / Firestore data tied to your account, subject to technical and legal limits  
-
-You can also manage Google account permissions at your Google Account security settings.
+Data is encrypted in transit (HTTPS/TLS). Google encrypts Firebase data at rest. Data on your phone is protected by your phone's own encryption and lock screen.
 
 ---
 
-## 9. International Users
+## 4. Who we share data with
+| Recipient | What | Why |
+|---|---|---|
+| Google Firebase (Authentication, Cloud Firestore) | Account details and the backup in section 3 | Sign-in and backup (our service provider) |
+| Google Gemini API | Meal photo or food text you choose to analyze | Nutrition estimate (see section 1.5 about Google's use on the free service) |
+| Open Food Facts | Barcode number only | Product nutrition lookup |
+| Google Play | Your purchase (handled by Google) | Membership billing and subscription status |
+| Android Health Connect | Read requests you approve | Show your readings |
 
-The App is developed for use primarily in the United States. If you use the App from elsewhere, your information may be processed in the United States or other locations where Google / Firebase operate.
+We may also disclose information if the law requires it or to protect someone's safety. If PlateVitals is ever sold or merged, we will tell you before your data is handled under a different policy.
 
 ---
 
-## 10. Medical and Health Disclaimer
+<a id="delete-account"></a>
 
-PlateVitals provides wellness, nutrition logging, and fitness-related displays only. It is **not** FDA-cleared or approved as a medical device. CGM, heart rate, SpO₂, and similar values may be incomplete, delayed, or inaccurate. **Do not use the App for emergency decisions or as a substitute for professional medical care.**
+## 5. How to delete your account and data
+
+### In the App (fastest)
+1. Open PlateVitals and tap **Settings** (bottom bar).
+2. Open **Account** and tap **Delete account**.
+3. Read what will be deleted and tap **Delete everything**. If Android asks you to choose your Google account again, do so; Google requires a recent sign-in before an account can be deleted.
+
+This immediately deletes your PlateVitals cloud backup (Cloud Firestore), your PlateVitals sign-in (Firebase Authentication account), and everything PlateVitals stored on your phone, and turns off its reminders.
+
+### Without the App (by email)
+Email **csavern@gmail.com** from the email address you use with PlateVitals, with the subject **“PlateVitals account deletion”**. We will confirm your request within 7 days and delete your account and cloud data within **30 days**, then email you when it is done.
+
+### What is deleted and what is kept
+- **Deleted:** your account, profile, wellness goals, meals, glucose, steps, weight, heart rate, water, reminders, habits, consent record and membership record held by PlateVitals.
+- **Not deleted by PlateVitals:** records in Health Connect and in the apps that wrote them (delete those in Health Connect); your Google Play purchase history, which Google keeps under its own policies; and emails you sent us, which we keep only as long as needed to answer you and show that we handled your request.
+- Google may keep encrypted backup copies of Firebase data for a short period under its own retention schedule before they are permanently erased.
+- **Deleting your account does not cancel a Google Play subscription.** Cancel it in the Google Play Store app → Profile → Payments & subscriptions → Subscriptions.
+
+You can also remove only part of your data at any time: delete individual meals in the App, disconnect Health Connect, or sign out and clear the App's storage in Android settings.
 
 ---
 
-## 11. Changes to This Policy
+## 6. How long we keep data
+- On your phone: until you delete it, delete your account, clear the App's storage or uninstall.
+- In your account: while your account exists. Inactive accounts are kept until you delete them.
+- Gemini and Open Food Facts requests are not stored by PlateVitals.
 
-We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the App after an update means you accept the revised policy. Material changes may also be noted in the App or store listing when practical.
+---
+
+## 7. Age requirement (18+ only)
+PlateVitals is for **adults 18 and older only**. You must confirm you are 18 or older before adding health data. We do not knowingly collect information from anyone under 18. If you believe someone under 18 is using PlateVitals, email csavern@gmail.com and we will delete their data.
+
+---
+
+## 8. Your choices and rights
+- See and change your data in the App at any time.
+- Withdraw Health Connect access in Health Connect or with Disconnect.
+- Turn reminders off in Settings → Reminders, or block notifications in Android settings.
+- Delete your account and data (section 5).
+- Ask for a copy of your data, a list of the companies we share it with, or a correction by emailing csavern@gmail.com. We answer within 45 days.
+- Residents of Washington, Nevada and Connecticut have additional rights over consumer health data; see the **Consumer Health Data Privacy Policy**: https://txvern.github.io/platevitals-legal/consumer-health-data.html
+
+---
+
+## 9. Where we operate
+PlateVitals is offered in the United States, and data is processed in the United States by Google.
+
+---
+
+## 10. Medical and health disclaimer
+PlateVitals shows wellness, nutrition and fitness information only. It is **not** cleared or approved by the FDA as a medical device. Glucose, heart rate, blood oxygen and similar readings may be delayed, incomplete or wrong, and AI nutrition estimates can be wrong. **Do not use the App for emergencies or medical decisions. In an emergency call 911.**
+
+---
+
+## 11. Changes to this policy
+When we change this policy we update the date at the top. If a change is significant, for example a new kind of data or a new company we share with, we will show a notice in the App before it applies and ask for your consent again where the law requires it.
 
 ---
 
 ## 12. Contact
-
-**Vernon Bearss / PlateVitals**  
-Email: **csavern@gmail.com**
-
-For privacy questions, data access, or deletion requests, email the address above.
+**Vernon Bearss / PlateVitals** · Email: **csavern@gmail.com**

@@ -1,6 +1,6 @@
 # Privacy Policy for PlateVitals
 
-**Last updated:** October 27, 2026  
+**Last updated:** November 21, 2026  
 **Developer:** Vernon Bearss (doing business as PlateVitals)  
 **Contact:** csavern@gmail.com  
 **App:** PlateVitals (Android package `com.vern.diettracker`)
@@ -33,12 +33,10 @@ If you connect Android Health Connect and grant permissions, the App may **read*
 
 - Blood glucose (for example readings shared into Health Connect by Abbott Lingo or other CGM apps; readings may lag by roughly three hours or more depending on the source app)  
 - Steps  
-- Heart rate (including resting heart rate when available)  
-- Blood pressure  
+- Heart rate  
 - Weight  
 - Active calories burned  
 - Oxygen saturation  
-- Sleep  
 
 Samsung Health (and similar apps) are used **only** when they share data into Health Connect and you grant PlateVitals the corresponding Health Connect permissions. We do not access Samsung Health through a separate proprietary API in the current App.
 
@@ -141,7 +139,7 @@ The App is developed for use primarily in the United States. If you use the App 
 
 ## 10. Medical and Health Disclaimer
 
-PlateVitals provides wellness, nutrition logging, and fitness-related displays only. It is **not** FDA-cleared or approved as a medical device. CGM, heart rate, blood pressure, SpO₂, sleep, and similar values may be incomplete, delayed, or inaccurate. **Do not use the App for emergency decisions or as a substitute for professional medical care.**
+PlateVitals provides wellness, nutrition logging, and fitness-related displays only. It is **not** FDA-cleared or approved as a medical device. CGM, heart rate, SpO₂, and similar values may be incomplete, delayed, or inaccurate. **Do not use the App for emergency decisions or as a substitute for professional medical care.**
 
 ---
 

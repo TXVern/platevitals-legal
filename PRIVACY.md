@@ -1,6 +1,6 @@
 # Privacy Policy for PlateVitals
 
-**Last updated:** November 21, 2026 (app version 1.0.33)  
+**Last updated:** November 21, 2026 (app version 1.0.34)  
 **Developer:** Vernon Bearss (doing business as PlateVitals)  
 **Contact:** csavern@gmail.com  
 **App:** PlateVitals (Android package `com.vern.diettracker`)  
@@ -50,8 +50,8 @@ PlateVitals currently uses Gemini's **free (unpaid) service**. Under Google's te
 ### 1.6 Barcodes
 When you scan a barcode, only the barcode number is sent to **Open Food Facts** (a free public food database) to look up the product's nutrition label. Nothing else about you is sent.
 
-### 1.7 Membership purchases (Google Play Billing)
-The membership ($4.99 a month in the United States) is sold and billed only by **Google Play**. We never see your card or bank details. Google Play tells the App whether your subscription is active and gives it a purchase token and order ID, which we store with your account so your membership works after a reinstall or on a new phone.
+### 1.7 Purchases
+PlateVitals is currently **free** and has no in-app purchases or subscriptions, so we collect no payment or purchase information. If paid features are added later, they will be billed only through **Google Play** (we would never see your card or bank details), and we will update this policy before then.
 
 ### 1.8 Device and technical data
 The App uses the app version and Android version shown in Settings, Firebase sign-in tokens, and your notification permission status. Reminders are **local notifications** created on your phone; we do not run push-notification or advertising services. The App has no ad, analytics or crash-reporting SDKs.
@@ -63,7 +63,6 @@ The App uses the app version and Android version shown in Settings, Firebase sig
 - Show your dashboard, goals, history, Trends and Health Connect readings.
 - Estimate food nutrition from photos, text or barcodes when you ask.
 - Send the reminders you turn on, at the times you choose.
-- Check and restore your Google Play membership.
 - Keep the App secure and answer your support requests.
 
 We do **not** sell personal information, do **not** show ads, and do **not** share health data with advertisers or data brokers.
@@ -85,7 +84,6 @@ Data is encrypted in transit (HTTPS/TLS). Google encrypts Firebase data at rest.
 | Google Firebase (Authentication, Cloud Firestore) | Account details and the backup in section 3 | Sign-in and backup (our service provider) |
 | Google Gemini API | Meal photo or food text you choose to analyze | Nutrition estimate (see section 1.5 about Google's use on the free service) |
 | Open Food Facts | Barcode number only | Product nutrition lookup |
-| Google Play | Your purchase (handled by Google) | Membership billing and subscription status |
 | Android Health Connect | Read requests you approve | Show your readings |
 
 We may also disclose information if the law requires it or to protect someone's safety. If PlateVitals is ever sold or merged, we will tell you before your data is handled under a different policy.
@@ -107,10 +105,9 @@ This immediately deletes your PlateVitals cloud backup (Cloud Firestore), your P
 Email **csavern@gmail.com** from the email address you use with PlateVitals, with the subject **“PlateVitals account deletion”**. We will confirm your request within 7 days and delete your account and cloud data within **30 days**, then email you when it is done.
 
 ### What is deleted and what is kept
-- **Deleted:** your account, profile, wellness goals, meals, glucose, steps, weight, heart rate, water, reminders, habits, consent record and membership record held by PlateVitals.
-- **Not deleted by PlateVitals:** records in Health Connect and in the apps that wrote them (delete those in Health Connect); your Google Play purchase history, which Google keeps under its own policies; and emails you sent us, which we keep only as long as needed to answer you and show that we handled your request.
+- **Deleted:** your account, profile, wellness goals, meals, glucose, steps, weight, heart rate, water, reminders, habits and consent record held by PlateVitals.
+- **Not deleted by PlateVitals:** records in Health Connect and in the apps that wrote them (delete those in Health Connect) and emails you sent us, which we keep only as long as needed to answer you and show that we handled your request.
 - Google may keep encrypted backup copies of Firebase data for a short period under its own retention schedule before they are permanently erased.
-- **Deleting your account does not cancel a Google Play subscription.** Cancel it in the Google Play Store app → Profile → Payments & subscriptions → Subscriptions.
 
 You can also remove only part of your data at any time: delete individual meals in the App, disconnect Health Connect, or sign out and clear the App's storage in Android settings.
 

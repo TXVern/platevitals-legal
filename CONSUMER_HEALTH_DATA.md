@@ -39,7 +39,7 @@ We **never sell** consumer health data. It is disclosed only to these service pr
 | Google LLC — Firebase Authentication and Cloud Firestore | Your account details and the backup of your profile, wellness goals, meals, glucose, steps, active calories, weight and heart rate (only if you sign in) | Sign-in and backup |
 | Google LLC — Gemini API | Meal photos or food text you choose to analyze (no health readings) | Nutrition estimate. PlateVitals currently uses Gemini's free service, under which Google may use submissions to improve its products. |
 
-Barcode numbers sent to Open Food Facts are not consumer health data. Google Play handles membership payments and receives no health data from PlateVitals. PlateVitals has no affiliates, and no third party collects consumer health data from the App across other websites or apps over time.
+Barcode numbers sent to Open Food Facts are not consumer health data. PlateVitals has no affiliates, and no third party collects consumer health data from the App across other websites or apps over time.
 
 ## 5. Consent
 Before you first connect Health Connect, pick a wellness goal or enter a glucose reading, the App asks for your consent to collect and use your consumer health data as described here, and asks you to confirm you are 18 or older. You can say “Not now” and keep using the rest of the App. We will ask again before collecting consumer health data for any new purpose or sharing it with anyone new.

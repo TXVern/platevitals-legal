@@ -39,7 +39,7 @@ PlateVitals is provided **“as is”** and **“as available.”** To the fulle
 
 ## 8. Limitation of liability
 
-To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, or punitive damages, or for lost profits, data, or goodwill, arising from your use of PlateVitals. Our total liability for any claim related to the app is limited to what you paid us for PlateVitals in the twelve months before the claim (or **fifty U.S. dollars** if you paid nothing). Some places do not allow these limits; in those places our liability is limited to the maximum the law allows.
+To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, or punitive damages, or for lost profits, data, or goodwill, arising from your use of PlateVitals. Our total liability for any claim related to the app is limited to what you paid us for PlateVitals in the twelve months before the claim, or **fifty U.S. dollars** if that amount is less or you paid nothing. Some places do not allow these limits; in those places our liability is limited to the maximum the law allows.
 
 ## 9. Privacy and data
 
@@ -47,39 +47,33 @@ When you use AI plate photo scan or typed AI food search, the photo or text is s
 
 We do not sell your personal data and do not share your health data or food entries with anyone for their own marketing. If you sign in, your data is backed up to your PlateVitals account on Google Firebase so it comes back after a reinstall.
 
-**Deleting your account:** you can delete your account and all your data at any time in the app: **Settings → Account → Delete account**. This deletes your PlateVitals sign-in, your cloud backup and the data stored on your phone right away. You can also email csavern@gmail.com from your account email with the subject "PlateVitals account deletion"; we finish email requests within 30 days. Deleting your account does not cancel a Google Play subscription; cancel that in Google Play.
+**Deleting your account:** you can delete your account and all your data at any time in the app: **Settings → Account → Delete account**. This deletes your PlateVitals sign-in, your cloud backup and the data stored on your phone right away. You can also email csavern@gmail.com from your account email with the subject "PlateVitals account deletion"; we finish email requests within 30 days.
 
 Our Privacy Policy (https://txvern.github.io/platevitals-legal/) and Consumer Health Data Privacy Policy (https://txvern.github.io/platevitals-legal/consumer-health-data.html) have more detail. This agreement works together with those policies.
 
-## 10. Subscription terms
+## 10. Price
 
-**Free use:** You can see the main dashboard. Some cards (such as macros, streaks and the daily tip) may appear with a lock. Tapping a locked item opens the membership screen. Free users cannot use paid features.
+**PlateVitals is currently free.** Every feature in the app, including AI plate photo scan, typed AI food search, barcode scan, meal logging, and calendar history, is available at no charge. There are no in-app purchases or subscriptions right now.
 
-**Paid membership:** **$4.99 per month** (United States price; Google Play shows the price for your country before you buy) unlocks AI plate photo scan, typed AI food search, barcode camera scan, meal logging, and calendar save and history. Locked dashboard items also unlock for members.
+If we add paid features in the future, they will be sold and billed only through Google Play, the price and terms will be shown to you before you buy, and we will update this agreement first. Features you already use free today will not be charged without telling you in advance.
 
-**Billing:** The membership is sold and charged **only through Google Play**, to the payment method in your Google Play account. It is a monthly subscription that **renews automatically each month until you cancel**. Cancel any time in the Google Play Store app → Profile → Payments & subscriptions → Subscriptions, or from **Manage subscription** in the app. Canceling stops future charges; you keep access until the end of the month you already paid for. Refunds are handled under Google Play's refund policy. Taxes may apply as shown at checkout.
-
-## 11. Promo codes
-
-We may sometimes give out promo codes that unlock all paid features at no charge for a set time. Each code can be used once per account (or once per install if you are not signed in), cannot be combined to extend the same period, and cannot be transferred or sold. When the promo period ends, paid features lock again unless you start a membership through Google Play.
-
-## 12. Age requirement
+## 11. Age requirement
 
 You must be at least **eighteen (18) years old** to create an account and use PlateVitals, and you will be asked to confirm this before adding health data. If you are under 18, do not use the app.
 
-## 13. Account responsibility
+## 12. Account responsibility
 
 Keep your login details private. You are responsible for activity on your account. Tell us promptly if you think someone else used it.
 
-## 14. Indemnification
+## 13. Indemnification
 
 If someone makes a claim against us because of how you used the app, content you submitted, or your breach of this agreement, you agree to cover our reasonable costs and damages to the extent the law allows.
 
-## 15. Governing law
+## 14. Governing law
 
 These terms are governed by the laws of the State of **Texas**, U.S.A., without regard to conflict-of-law rules that would point elsewhere. Courts in Texas have exclusive jurisdiction for disputes that a court may hear, except where the law requires otherwise. (This is not a substitute for advice from your own lawyer.)
 
-## 16. Acceptance
+## 15. Acceptance
 
 You must tap **Accept** before you sign in or use PlateVitals. There is no skip. If you keep using the app after we update these terms, that continued use means you accept the updated terms, unless we ask you to accept them again.
 
